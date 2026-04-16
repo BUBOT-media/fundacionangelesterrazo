@@ -11,12 +11,17 @@ export default function Header() {
   const { language, setLanguage, t } = useLanguage();
 
   const navigation = [
-    // { name: t('nav.home'), href: '/' },
-    { name: t('nav.foundation'), href: '/la-fundacion' },
-    { name: t('nav.award'), href: '/premio' },
-    { name: t('nav.transparency'), href: '/transparencia' },
-    { name: t('nav.contact'), href: '/contacto' },
-  ];
+  // { name: t('nav.home'), href: '/' },
+  { name: t('nav.foundation'), href: '/la-fundacion' },
+  { name: t('nav.award'), href: '/premio' },
+  {
+    name: 'Inscripciones',
+    href: 'https://docs.google.com/forms/d/e/1FAIpQLSfNBSr1e-U6YHgs8g9eMTJQRzm6zVMjb9U6Y7QlfmP_uW474w/viewform',
+    external: true,
+  },
+  { name: t('nav.transparency'), href: '/transparencia' },
+  { name: t('nav.contact'), href: '/contacto' },
+];
 
   return (
     <header className="bg-[#271637] border-b border-white/20 sticky top-0 z-50">
