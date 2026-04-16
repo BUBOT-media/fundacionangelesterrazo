@@ -41,7 +41,7 @@ export default function PremioPage() {
                       {t('award.bases.note.description')}
                     </p>
                     <a 
-                      href="/NOTA ACLARATORIA FAT.pdf"
+                      href="/NOTA ACLARATORIA.pdf"
                       download
                       className="inline-flex items-center px-4 sm:px-6 py-2 sm:py-3 rounded-md font-medium text-sm sm:text-base text-white transition-colors hover:opacity-90"
                       style={{ backgroundColor: '#e00053' }}
