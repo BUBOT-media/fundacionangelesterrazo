@@ -41,7 +41,7 @@ export default function PremioPage() {
                       {t('award.bases.note.description')}
                     </p>
                     <a 
-                      href="/NOTA ACLARATORIA*.pdf"
+                      href="/Nota aclaratoria del Premio Ángeles Terrazo 2026.pdf"
                       download
                       className="inline-flex items-center px-4 sm:px-6 py-2 sm:py-3 rounded-md font-medium text-sm sm:text-base text-white transition-colors hover:opacity-90"
                       style={{ backgroundColor: '#e00053' }}
@@ -69,7 +69,7 @@ export default function PremioPage() {
                       {t('award.bases.title')}
                     </h2>
                     <a 
-                      href="/BASES PREMIO ÁNGELES TERRAZO DE NOVELA 2026.pdf"
+                      href="/Bases del Premio Ángeles Terrazo de Novela 2026.pdf"
                       download
                       className="inline-flex items-center px-4 sm:px-6 py-2 sm:py-3 rounded-md font-medium text-sm sm:text-base text-white transition-colors hover:opacity-90"
                       style={{ backgroundColor: '#e00053' }}
