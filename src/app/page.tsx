@@ -82,22 +82,43 @@ export default function HomePage() {
             </p>
             
             {/* Botones */}
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-6 sm:gap-6">
-              <Link
-                href="/la-fundacion"
-                className="w-full sm:w-auto rounded-md px-3 py-3 text-lg font text-white shadow-lg hover:opacity-90 transition-opacity bg-brand-purple"
-              >
-                {t('hero.cta.foundation')}
-              </Link>
-              <Link 
-                href="/contacto" 
-                className="w-full sm:w-auto rounded-md px-3 py-3 text-lg font text-white shadow-lg hover:opacity-90 transition-opacity bg-brand-purple"
-              >
-                {t('hero.cta.contact')}
-              </Link>
-            </div>
-          </div>
-        </div>
+           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-6 sm:gap-6">
+  
+  {/* Conoce la fundación */}
+  <Link
+    href="/la-fundacion"
+    className="w-full sm:w-auto rounded-md px-3 py-3 text-lg font text-white shadow-lg hover:opacity-90 transition-opacity bg-brand-purple"
+  >
+    {t('hero.cta.foundation')}
+  </Link>
+
+  {/* El premio */}
+  <Link
+    href="/premio"
+    className="w-full sm:w-auto rounded-md px-3 py-3 text-lg font text-white shadow-lg hover:opacity-90 transition-opacity bg-brand-purple"
+  >
+    El premio
+  </Link>
+
+  {/* Inscripciones (CTA principal) */}
+  <Link
+    href="https://docs.google.com/forms/d/e/1FAIpQLSfNBSr1e-U6YHgs8g9eMTJQRzm6zVMjb9U6Y7QlfmP_uW474w/viewform"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-full sm:w-auto rounded-md px-3 py-3 text-lg font text-white shadow-lg hover:opacity-90 transition-opacity bg-[#e00053]"
+  >
+    Inscripciones
+  </Link>
+
+  {/* Contacto */}
+  <Link 
+    href="/contacto" 
+    className="w-full sm:w-auto rounded-md px-3 py-3 text-lg font text-white shadow-lg hover:opacity-90 transition-opacity bg-brand-purple"
+  >
+    {t('hero.cta.contact')}
+  </Link>
+
+</div>
       </section>
 
       {/* Contador / Próximas fechas clave */}
