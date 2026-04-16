@@ -15,7 +15,7 @@ export default function Header() {
     { name: t('nav.foundation'), href: '/la-fundacion' },
     { name: t('nav.award'), href: '/premio' },
     {
-      name: 'Inscripciones',
+      name: 'Inscribirse',
       href: 'https://docs.google.com/forms/d/e/1FAIpQLSfNBSr1e-U6YHgs8g9eMTJQRzm6zVMjb9U6Y7QlfmP_uW474w/viewform',
     },
     { name: t('nav.transparency'), href: '/transparencia' },
