@@ -70,9 +70,14 @@ export default function HomePage() {
               <h1 className="text-xl md:text-3xl lg:text-2xl mb-2 text-center" style={{ color: '#e00053', fontFamily: 'Avenir, sans-serif', fontWeight: 700 }}>
               {t('hero.award.title')}
               </h1>
-              <p className="text-lg md:text-base font-semibold text-center text-brand-pink font-avenir">
-              {t('hero.award.subtitle')}
-              </p>
+              <a
+              href="https://www.fundacionangelesterrazo.gal/premio"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-lg md:text-base font-semibold text-center text-brand-pink font-avenir hover:underline"
+              >
+              Ver bases convocatoria
+              </a>
               
             </div>
             
