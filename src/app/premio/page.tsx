@@ -57,12 +57,11 @@ export default function PremioPage() {
           fontWeight: 700,
         }}
       >
-        Ganador del Premio Ángeles Terrazo de Novela 2026
+        {t('award.winnerAnnouncement.title')}
       </h2>
 
       <p className="text-gray-700 mb-6 leading-relaxed text-sm sm:text-base">
-        Alfredo Conde Cid, con su novela «A chuvia eterna»,
-        ha resultado ganador de la primera edición del premio.
+        {t('award.winnerAnnouncement.description')}
       </p>
 
       <a
@@ -85,7 +84,9 @@ export default function PremioPage() {
             d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
           />
         </svg>
-        <span className="break-words">Leer nota de prensa</span>
+        <span className="break-words">
+  {t('award.winnerAnnouncement.button')}
+</span>
       </a>
     </div>
   </div>
