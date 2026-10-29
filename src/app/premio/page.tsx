@@ -199,15 +199,48 @@ export default function PremioPage() {
                 className="bg-white rounded-xl shadow-md overflow-hidden"
               >
                 <div className="md:flex">
-                  <div className="md:w-1/3 bg-gray-100 flex items-center justify-center p-8">
-                    <div className="text-center ">
-                      <div className="w-32 h-32 bg-gray-200 rounded-full mx-auto flex items-center justify-center" >
-                        <svg className="h-16 w-16 text-gray-400 " fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                        </svg>
-                      </div>
-                    </div>
-                  </div>
+                 
+<div className="md:w-1/3 bg-gray-100">
+  {winner.imageUrl ? (
+    <div className="h-full flex flex-col">
+      <img
+        src={winner.imageUrl}
+        alt={`Fotografía de ${winner.name}`}
+        className="w-full h-72 md:h-80 object-cover object-center"
+      />
+      <div className="bg-gray-100 px-3 py-2 text-center text-xs text-gray-600">
+        <span>Arquivo AELG - Eduardo Castro Bal · </span>
+        <a
+          href="https://creativecommons.org/licenses/by-sa/3.0/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline hover:text-gray-900"
+        >
+          CC BY-SA 3.0
+        </a>
+      </div>
+    </div>
+  ) : (
+    <div className="flex items-center justify-center p-8 h-full">
+      <div className="w-32 h-32 bg-gray-200 rounded-full flex items-center justify-center">
+        <svg
+          className="h-16 w-16 text-gray-400"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={1}
+            d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+          />
+        </svg>
+      </div>
+    </div>
+  )}
+</div>
+
                   <div className="md:w-2/3 p-8">
                     <div className="flex items-center mb-4">
                       <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-gray-100 text-gray-800">
