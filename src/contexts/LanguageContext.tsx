@@ -46,6 +46,30 @@ const translations: Record<Language, Record<string, string>> = {
     'award.winnerAnnouncement.description': 'Alfredo Conde Cid, con su novela «A chuvia eterna», ha resultado ganador de la primera edición del premio.',
     'award.winnerAnnouncement.button': 'Leer nota de prensa',
     
+    
+    // Noticia: Ganador Premio Ángeles Terrazo 2026
+    'news.ganador2026.title': 'La Fundación Ángeles Terrazo anuncia la novela ganadora de la primera edición de su premio literario, dotado con 20.000 euros',
+
+    'news.ganador2026.excerpt': 'Alfredo Conde Cid ha resultado ser el ganador con su novela «A chuvia eterna». Por causas de fuerza mayor el acto de entrega del premio se trasladará a principios de 2027.',
+
+    'news.ganador2026.content': `
+<p><strong>Vigo, 29 de octubre de 2026.</strong> Alfredo Conde Cid ha sido elegido ganador de la primera edición del Premio Ángeles Terrazo de Novela por su obra <em>A chuvia eterna</em>. El jurado, compuesto por Arantza Portabales Santomé, Darío Villanueva Prieto, José Manuel Otero Lastres, Bieito Rubido Ramonde y Adolfo Domínguez Fernández, ha seleccionado la novela del autor gallego entre más de 200 obras recibidas desde siete países de procedencia: España, México, Argentina, Uruguay, Chile, Portugal y Japón.</p>
+
+<p>Nacido en Allariz, Alfredo Conde Cid ha ganado el premio con una obra escrita en lengua gallega que desde una perspectiva costumbrista consigue evocar la vida, las tradiciones y las creencias de un territorio concreto, combinando realismo, ironía y elementos casi mágicos.</p>
+
+<p>La Fundación celebra especialmente que esta primera edición haya reconocido una novela en gallego, un deseo que su presidenta, Ángeles Terrazo, había expresado desde el inicio del proyecto y que refuerza el compromiso de la entidad con la promoción y puesta en valor de la literatura en lengua gallega.</p>
+
+<h2>El premio con mayor dotación económica de Galicia</h2>
+
+<p>El Premio Ángeles Terrazo de Novela, dotado con 20.000 euros, nace con vocación de continuidad y pretende convertirse en un espacio de reconocimiento para nuevas propuestas literarias, contribuyendo al impulso de la creación y a la difusión de la literatura.</p>
+
+<p>Además de los 20.000 euros, el premio conlleva la publicación de la obra ganadora. La Fundación Ángeles Terrazo se compromete a la publicación de una primera edición de hasta 300 ejemplares entre lengua gallega y castellana, con un mínimo de 50 ejemplares en cada lengua.</p>
+
+<p>Con esta primera edición, la Fundación inicia un proyecto que aspira a consolidarse en el panorama literario y a mantener abierta una convocatoria que dé cabida, cada año, a nuevas historias y autores.</p>
+
+<p>La Fundación Ángeles Terrazo anunciará próximamente la fecha de celebración del acto de entrega del premio, que por causas de fuerza mayor se traslada a comienzos de 2027, en el que se reconocerá públicamente la obra ganadora de esta primera edición.</p>
+`,
+
     // News
     'news.title': 'Noticias destacadas',
     'news.superTitle': 'Noticia destacada',
@@ -331,6 +355,30 @@ en el panorama narrativo en castellano y gallego.</p>`,
     'award.winnerAnnouncement.title': 'Gañador do Premio Ángeles Terrazo de Novela 2026',
     'award.winnerAnnouncement.description': 'Alfredo Conde Cid, coa súa novela «A chuvia eterna», resultou gañador da primeira edición do premio.',
     'award.winnerAnnouncement.button': 'Ler nota de prensa',
+
+    
+    // Noticia: Gañador Premio Ángeles Terrazo 2026
+    'news.ganador2026.title': 'A Fundación Ángeles Terrazo anuncia a novela gañadora da primeira edición do seu premio literario, dotado con 20.000 euros',
+
+    'news.ganador2026.excerpt': 'Alfredo Conde Cid resultou gañador coa súa novela «A chuvia eterna». Por causas de forza maior, o acto de entrega do premio trasladarase a comezos de 2027.',
+
+    'news.ganador2026.content': `
+<p><strong>Vigo, 29 de outubro de 2026.</strong> Alfredo Conde Cid foi elixido gañador da primeira edición do Premio Ángeles Terrazo de Novela pola súa obra <em>A chuvia eterna</em>. O xurado, composto por Arantza Portabales Santomé, Darío Villanueva Prieto, José Manuel Otero Lastres, Bieito Rubido Ramonde e Adolfo Domínguez Fernández, seleccionou a novela do autor galego entre máis de 200 obras recibidas desde sete países de procedencia: España, México, Arxentina, Uruguai, Chile, Portugal e Xapón.</p>
+
+<p>Nado en Allariz, Alfredo Conde Cid gañou o premio cunha obra escrita en lingua galega que, desde unha perspectiva costumista, consegue evocar a vida, as tradicións e as crenzas dun territorio concreto, combinando realismo, ironía e elementos case máxicos.</p>
+
+<p>A Fundación celebra especialmente que esta primeira edición recoñecese unha novela en galego, un desexo que a súa presidenta, Ángeles Terrazo, expresara desde o inicio do proxecto e que reforza o compromiso da entidade coa promoción e posta en valor da literatura en lingua galega.</p>
+
+<h2>O premio con maior dotación económica de Galicia</h2>
+
+<p>O Premio Ángeles Terrazo de Novela, dotado con 20.000 euros, nace con vocación de continuidade e pretende converterse nun espazo de recoñecemento para novas propostas literarias, contribuíndo ao impulso da creación e á difusión da literatura.</p>
+
+<p>Ademais dos 20.000 euros, o premio leva consigo a publicación da obra gañadora. A Fundación Ángeles Terrazo comprométese á publicación dunha primeira edición de ata 300 exemplares entre lingua galega e castelá, cun mínimo de 50 exemplares en cada lingua.</p>
+
+<p>Con esta primeira edición, a Fundación inicia un proxecto que aspira a consolidarse no panorama literario e a manter aberta unha convocatoria que dea cabida, cada ano, a novas historias e autores.</p>
+
+<p>A Fundación Ángeles Terrazo anunciará proximamente a data de celebración do acto de entrega do premio, que por causas de forza maior se traslada a comezos de 2027, no que se recoñecerá publicamente a obra gañadora desta primeira edición.</p>
+`,
 
     // News
     'news.title': 'Novas destacadas',
