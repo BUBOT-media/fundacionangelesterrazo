@@ -320,7 +320,7 @@ en el panorama narrativo en castellano y gallego.</p>`,
     'dates.pending': 'Pendente',
     'dates.closingDate': '30 DE XUÑO DE 2026',
     'dates.verdictDate': 'OUTUBRO DE 2026',
-    'dates.ceremonyDate': '14 DE NOVEMBRO DE 2026',
+    'dates.ceremonyDate': 'COMEZOS DE 2027',
 
     // News
     'news.title': 'Novas destacadas',
