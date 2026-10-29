@@ -40,6 +40,11 @@ const translations: Record<Language, Record<string, string>> = {
     'dates.closingDate': '30 DE JUNIO DE 2026',
     'dates.verdictDate': 'OCTUBRE DE 2026',
     'dates.ceremonyDate': 'COMIENZOS DE 2027',
+
+    // Anuncio del ganador
+    'award.winnerAnnouncement.title': 'Ganador del Premio Ángeles Terrazo de Novela 2026',
+    'award.winnerAnnouncement.description': 'Alfredo Conde Cid, con su novela «A chuvia eterna», ha resultado ganador de la primera edición del premio.',
+    'award.winnerAnnouncement.button': 'Leer nota de prensa',
     
     // News
     'news.title': 'Noticias destacadas',
@@ -321,6 +326,11 @@ en el panorama narrativo en castellano y gallego.</p>`,
     'dates.closingDate': '30 DE XUÑO DE 2026',
     'dates.verdictDate': 'OUTUBRO DE 2026',
     'dates.ceremonyDate': 'COMEZOS DE 2027',
+
+    // Anuncio do gañador
+    'award.winnerAnnouncement.title': 'Gañador do Premio Ángeles Terrazo de Novela 2026',
+    'award.winnerAnnouncement.description': 'Alfredo Conde Cid, coa súa novela «A chuvia eterna», resultou gañador da primeira edición do premio.',
+    'award.winnerAnnouncement.button': 'Ler nota de prensa',
 
     // News
     'news.title': 'Novas destacadas',
