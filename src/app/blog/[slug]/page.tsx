@@ -67,7 +67,7 @@ export default function BlogPostPage() {
             </div>
           </header>
 
-          {/* Imagen destacada */}
+          {/* Featured Image placeholder */}
           <div className="mb-10 rounded-xl overflow-hidden bg-gray-100 h-64 flex items-center justify-center relative">
             {post.imageUrl ? (
               <Image 
@@ -94,3 +94,31 @@ export default function BlogPostPage() {
                 rel="noopener noreferrer"
                 className="underline hover:text-brand-pink"
               >
+                CC BY-SA 3.0
+              </a>
+            </p>
+          )}
+
+          {/* Content */}
+          <div 
+            className="prose prose-lg max-w-none text-justify prose-headings:text-brand-purple prose-headings:font-avenir prose-a:text-brand-pink hover:prose-a:text-brand-pink-dark [&>p]:mb-4 [&>h2]:!block [&>h2]:!text-2xl [&>h2]:!font-bold [&>h2]:!text-brand-purple [&>h2]:!leading-snug [&>h2]:!mt-10 [&>h2]:!mb-5"
+            dangerouslySetInnerHTML={{ __html: t(post.content) }}
+          />
+
+          {/* Footer */}
+          <footer className="mt-12 pt-8 border-t border-gray-200">
+            <Link 
+              href="/blog"
+              className="inline-flex items-center text-brand-pink font-medium hover:text-brand-pink-dark transition-colors"
+            >
+              <svg className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+              </svg>
+              {t('blog.backToBlog')}
+            </Link>
+          </footer>
+        </div>
+      </article>
+    </div>
+  );
+}
