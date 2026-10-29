@@ -67,7 +67,7 @@ export default function BlogPostPage() {
             </div>
           </header>
 
-          {/* Featured Image placeholder */}
+          {/* Imagen destacada */}
           <div className="mb-10 rounded-xl overflow-hidden bg-gray-100 h-64 flex items-center justify-center relative">
             {post.imageUrl ? (
               <Image 
@@ -84,26 +84,13 @@ export default function BlogPostPage() {
 
           </div>
 
-          {/* Content */}
-          <div 
-            className="prose prose-lg max-w-none text-justify prose-headings:text-brand-purple prose-headings:font-avenir prose-a:text-brand-pink hover:prose-a:text-brand-pink-dark [&>p]:mb-4 [&>h2]:mt-6 [&>h2]:mb-3"
-            dangerouslySetInnerHTML={{ __html: t(post.content) }}
-          />
-
-          {/* Footer */}
-          <footer className="mt-12 pt-8 border-t border-gray-200">
-            <Link 
-              href="/blog"
-              className="inline-flex items-center text-brand-pink font-medium hover:text-brand-pink-dark transition-colors"
-            >
-              <svg className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
-              </svg>
-              {t('blog.backToBlog')}
-            </Link>
-          </footer>
-        </div>
-      </article>
-    </div>
-  );
-}
+          {/* Crédito de la fotografía de Alfredo Conde */}
+          {post.imageUrl === '/alfredo-conde.jpg' && (
+            <p className="text-xs text-gray-500 -mt-7 mb-10">
+              Arquivo AELG - Eduardo Castro Bal ·{' '}
+              <a
+                href="https://creativecommons.org/licenses/by-sa/3.0/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-brand-pink"
+              >
