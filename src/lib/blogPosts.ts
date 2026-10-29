@@ -4,6 +4,19 @@ import { BlogPost } from '@/types';
 // Los campos title, excerpt y content usan claves de traducción que se resuelven con t() en el componente
 export const blogPosts: BlogPost[] = [
   {
+    id: '4',
+    title: 'news.ganador2026.title',
+    slug: 'alfredo-conde-cid-ganador-premio-angeles-terrazo-2026',
+    excerpt: 'news.ganador2026.excerpt',
+    content: 'news.ganador2026.content',
+    author: 'Fundación Ángeles Terrazo',
+    publishedAt: new Date('2026-10-29'),
+    updatedAt: new Date('2026-10-29'),
+    featured: true,
+    highlightLevel: 'super',
+    imageUrl: '/alfredo-conde.jpg',
+  },
+  {
     id: '1',
     title: 'news.presentacion.title', // Clave de traducción
     slug: 'fundacion-angeles-terrazo-presenta-premio-literario-vigo',
