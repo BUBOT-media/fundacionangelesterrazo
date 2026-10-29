@@ -39,7 +39,7 @@ const translations: Record<Language, Record<string, string>> = {
     'dates.pending': 'Pendiente',
     'dates.closingDate': '30 DE JUNIO DE 2026',
     'dates.verdictDate': 'OCTUBRE DE 2026',
-    'dates.ceremonyDate': '14 DE NOVIEMBRE DE 2026',
+    'dates.ceremonyDate': 'COMIENZOS DE 2027',
     
     // News
     'news.title': 'Noticias destacadas',
