@@ -23,6 +23,73 @@ export default function PremioPage() {
         <div className="container-70 px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-4xl">
             <div className="space-y-8">
+              
+{/* Anuncio del ganador */}
+<div className="bg-white p-6 sm:p-8 rounded-lg shadow-md border border-gray-200">
+  <div className="flex flex-col sm:flex-row sm:items-center">
+    <div className="shrink-0 mb-4 sm:mb-0">
+      <div
+        className="w-14 h-14 sm:w-16 sm:h-16 rounded-lg flex items-center justify-center"
+        style={{ backgroundColor: '#271637' }}
+      >
+        <svg
+          className="h-7 w-7 sm:h-8 sm:w-8 text-white"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M8 21h8m-4-4v4M7 4h10v7a5 5 0 01-10 0V4zM7 6H4v2a4 4 0 004 4m9-6h3v2a4 4 0 01-4 4"
+          />
+        </svg>
+      </div>
+    </div>
+
+    <div className="sm:ml-10 flex-1 min-w-0">
+      <h2
+        className="text-xl sm:text-2xl font-bold mb-3"
+        style={{
+          color: '#271637',
+          fontFamily: 'Avenir, sans-serif',
+          fontWeight: 700,
+        }}
+      >
+        Ganador del Premio Ángeles Terrazo de Novela 2026
+      </h2>
+
+      <p className="text-gray-700 mb-6 leading-relaxed text-sm sm:text-base">
+        Alfredo Conde Cid, con su novela «A chuvia eterna»,
+        ha resultado ganador de la primera edición del premio.
+      </p>
+
+      <a
+        href="/Nota de prensa - Ganador Premio Angeles Terrazo 2026.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center px-4 sm:px-6 py-2 sm:py-3 rounded-md font-medium text-sm sm:text-base text-white transition-colors hover:opacity-90"
+        style={{ backgroundColor: '#e00053' }}
+      >
+        <svg
+          className="w-4 h-4 sm:w-5 sm:h-5 mr-2 shrink-0"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+          />
+        </svg>
+        <span className="break-words">Leer nota de prensa</span>
+      </a>
+    </div>
+  </div>
+</div>
 
               <div className="bg-white p-6 sm:p-8 rounded-lg shadow-md border border-gray-200">
                 <div className="flex flex-col sm:flex-row sm:items-center">
