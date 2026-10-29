@@ -1,3 +1,4 @@
+
 export interface AwardWinner {
   year: number;
   name: string;
@@ -6,13 +7,13 @@ export interface AwardWinner {
   imageUrl: string | null;
 }
 
-// Datos de ejemplo para los ganadores del premio
+// Ganadores del Premio Ángeles Terrazo de Novela
 export const awardWinners: AwardWinner[] = [
   {
     year: 2026,
-    name: 'Próximamente',
-    work: 'Por anunciar',
-    bio: 'El ganador del premio 2026 será anunciado próximamente.',
-    imageUrl: null,
+    name: 'Alfredo Conde Cid',
+    work: 'A chuvia eterna',
+    bio: 'Ganador de la primera edición del Premio Ángeles Terrazo de Novela. Su obra, escrita en lengua gallega, evoca la vida, las tradiciones y las creencias de un territorio, combinando realismo, ironía y elementos casi mágicos. La novela fue seleccionada entre más de 200 obras presentadas desde siete países.',
+    imageUrl: '/alfredo-conde.jpg',
   },
 ];
