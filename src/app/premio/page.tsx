@@ -200,7 +200,7 @@ export default function PremioPage() {
               >
                 <div className="md:flex">
                  
-<div className="md:w-1/3 bg-gray-100">
+<div className="md:w-1/3 bg-white">
   {winner.imageUrl ? (
     <div className="h-full flex flex-col">
       <img
@@ -208,7 +208,7 @@ export default function PremioPage() {
         alt={`Fotografía de ${winner.name}`}
         className="w-full h-72 md:h-80 object-cover object-center"
       />
-      <div className="bg-gray-100 px-3 py-2 text-center text-xs text-gray-600">
+      <div className="bg-white px-3 py-2 text-center text-xs text-gray-600">
         <span>Arquivo AELG - Eduardo Castro Bal · </span>
         <a
           href="https://creativecommons.org/licenses/by-sa/3.0/"
