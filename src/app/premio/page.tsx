@@ -62,7 +62,7 @@ export default function PremioPage() {
 
       <p className="text-gray-700 mb-6 leading-relaxed text-sm sm:text-base">
         Alfredo Conde Cid, con su novela «A chuvia eterna»,
-        ha resultado ganador de la primera edición del premio.
+        ha resultado ganador de la 1º edición del premio.
       </p>
 
       <a
