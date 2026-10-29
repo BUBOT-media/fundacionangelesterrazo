@@ -161,10 +161,11 @@ export default function HomePage() {
                       {t(superHighlightedPost.title)}
                     </h3>
                   </div>
+
                   <div className="w-full h-64 md:h-96 bg-gray-100 relative">
                     {superHighlightedPost.imageUrl ? (
-                      <Image 
-                        src={superHighlightedPost.imageUrl} 
+                      <Image
+                        src={superHighlightedPost.imageUrl}
                         alt={t(superHighlightedPost.title)}
                         fill
                         className="object-cover"
@@ -175,36 +176,36 @@ export default function HomePage() {
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
                         </svg>
                       </div>
-              
-{superHighlightedPost.imageUrl === '/alfredo-conde.jpg' && (
-  <p className="px-8 pt-2 text-xs text-gray-500">
-    Arquivo AELG - Eduardo Castro Bal ·{' '}
-    <a
-      href="https://creativecommons.org/licenses/by-sa/3.0/"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="underline hover:text-brand-pink"
-    >
-      CC BY-SA 3.0
-    </a>
-  </p>
-)}
-
                     )}
                   </div>
+
+                  {/* Crédito de la fotografía de Alfredo Conde */}
+                  {superHighlightedPost.imageUrl === '/alfredo-conde.jpg' && (
+                    <p className="px-8 pt-2 text-xs text-gray-500">
+                      Arquivo AELG - Eduardo Castro Bal ·{' '}
+                      <a
+                        href="https://creativecommons.org/licenses/by-sa/3.0/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="underline hover:text-brand-pink"
+                      >
+                        CC BY-SA 3.0
+                      </a>
+                    </p>
+                  )}
+
                   <div className="p-8 pt-6 text-justify">
-                    <div 
+                    <div
                       className="text-gray-600 leading-relaxed text-justify prose prose-sm max-w-none font-semibold [&>p]:mb-6 [&>h2]:text-xl [&>h2]:font-bold [&>h2]:text-brand-purple [&>h2]:mt-6 [&>h2]:mb-3 [&>h2]:font-avenir"
                       dangerouslySetInnerHTML={{ __html: t(superHighlightedPost.excerpt) }}
                     />
-                   
-<Link
-  href={`/blog/${superHighlightedPost.slug}`}
-  className="inline-block mt-4 text-brand-pink hover:text-brand-pink-dark font-semibold transition-colors"
->
-  {t('news.readMore')} →
-</Link>
- 
+                    <Link
+                      href={`/blog/${superHighlightedPost.slug}`}
+                      className="inline-block mt-4 text-brand-pink hover:text-brand-pink-dark font-semibold transition-colors"
+                    >
+                      {t('news.readMore')} →
+                    </Link>
+                  </div>
                 </div>
               </article>
             </div>
@@ -298,3 +299,4 @@ export default function HomePage() {
     </div>
   );
 }
+
