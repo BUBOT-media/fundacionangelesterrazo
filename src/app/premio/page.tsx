@@ -5,7 +5,7 @@ import { awardWinners } from '@/lib/awardWinners';
 import { useLanguage } from '@/contexts/LanguageContext';
 
 export default function PremioPage() {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
 
   return (
     <div className="bg-background">
@@ -255,7 +255,7 @@ export default function PremioPage() {
                       {t('award.winners.featuredWork')}: {winner.work}
                     </p>
                     <p className="text-gray-600">
-                      {winner.bio}
+                    {language === 'gl' ? winner.bioGl : winner.bio}
                     </p>
                   </div>
                 </div>
